@@ -4,15 +4,15 @@ body {
 
 h1 {
 	color: white;
-	font-family: "Roboto Mono"
+	font-family: 'Roboto Mono', monospace;
 }
 
 p {
 	color: white;
-	font-family: "Roboto Mono"
+	font-family: 'Roboto Mono', monospace;
 }
 
 a {
 	color: white;
-	font-family: "Roboto Mono"
+	font-family: 'Roboto Mono', monospace;
 }
