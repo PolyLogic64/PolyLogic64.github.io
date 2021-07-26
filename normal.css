@@ -1,0 +1,10 @@
+body {
+	background-color:#202020;
+}
+
+h1, p, a {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+
