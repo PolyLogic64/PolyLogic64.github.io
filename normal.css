@@ -1,3 +1,8 @@
+* {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
 body {
 	background-color:#202020;
 }
@@ -7,4 +12,24 @@ h1, p, a {
 	color: white;
 }
 
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
+.stuff {
+	height: 90px;
+	width: 20%;
+	margin: 10px;
+	
+}
+
+button.stuff {
+	background-color: #303030;
+}
+
+input.icon {
+	float: right;
+	height: 90px;
+}
