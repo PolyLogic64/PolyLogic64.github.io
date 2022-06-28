@@ -18,18 +18,60 @@ h1, p, a {
 	justify-content: center;
 }
 
+.flex-container-head {
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: stretch;
+}
+
+.flex-container-items {
+	display:flex;
+	flex-direction: row;
+	align-items:stretch;
+}
+
 .stuff {
 	height: 90px;
 	width: 20%;
 	margin: 10px;
+	filter: grayscale(100%);
 	
 }
 
+.stuff:hover {
+	filter: grayscale(0%);
+}
+
+button.head {
+	font-size: 14pt;
+	color: #FFFFFF;
+	background-color: #202020;
+	height: 90px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	width: 100%;
+}
+
+button.head:hover {
+	background-color: #FFFFFF;
+	color: black;
+}
+
 button.stuff {
+	font-size: 12pt;
 	background-color: #303030;
 }
 
-input.icon {
-	float: right;
+input.iconl {
+	float: left;
 	height: 90px;
+
 }
+
+input.iconr {
+	float: right;
+	height: 45px;
+	margin-top: 1%;
+	
+}
+
